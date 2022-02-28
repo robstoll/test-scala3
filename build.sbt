@@ -7,4 +7,4 @@ lazy val root = (project in file("."))
     name := "test-scala3"
   )
 
-scalacOptions ++=Seq("-source:future")
+scalacOptions ++=Seq("-source:future", "-feature", "-Werror")
